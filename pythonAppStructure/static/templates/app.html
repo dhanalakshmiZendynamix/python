@@ -1,0 +1,160 @@
+<div id="appHeader">
+    <div class="leftCont floatLeft">
+        <div class="logo">
+            <img src="images/nec_logo.png" alt="" class="nec midBlock">
+        </div>
+    </div>
+    <div class="rightCont floatRight roboLight">
+        <div class="rippleEle notificationBtn midBlock small " data-init=0 >
+            <div class="txt midBlock">Notifications</div>
+            <div class="num midBlock">5</div>
+        </div>
+        <a href="#/admin/signIn" class="logout midBlock subNormal pointer">Logout</a>
+    </div>
+    <span class="clear"></span>
+</div>
+
+
+<div id="contWrapper">
+
+    <!--........ Side navigation bar ......-->
+    <div class="sideNavMain">
+        <ul class="sideNav roboLight smallest">
+            <li ng-class="{active: currentRout('app/dashboard')}" class="rippleEle">
+                <a href="#/app/dashboard/dashboardMap">
+                    <img src="images/Dashboard_Inactive.png" alt="" class="icon inactive">
+                    <img src="images/Dashboard_Active.png" alt="" class="icon active">
+                    <div class="name">Dashboard</div>
+                </a>
+            </li>
+            <li ng-class="{active: currentRout('app/canvas')}" class="rippleEle">
+                <a href="#/app/canvas">
+                    <img src="images/canvas_inActive.png" alt="" class="icon inactive">
+                    <img src="images/canvas_active.png" alt="" class="icon active">
+                    <div class="name">Canvas</div>
+                </a>
+            </li>
+            <li ng-class="{active: currentRout('app/watchlist')}" class="rippleEle">
+                <a href="#/app/watchlist">
+                    <img src="images/watchList_Inactive.png" alt="" class="icon inactive">
+                    <img src="images/watchList_Active.png" alt="" class="icon active">
+                    <div class="name">Watchlist</div>
+                </a>
+            </li>
+            <li ng-class="{active: currentRout('app/reports')}" class="rippleEle">
+                <a href="#/app/reports">
+                    <img src="images/watchList_Inactive.png" alt="" class="icon inactive">
+                    <img src="images/watchList_Active.png" alt="" class="icon active">
+                    <div class="name">Reports</div>
+                </a>
+            </li>
+            <li ng-class="{active: currentRout('app/settings')}" class="rippleEle">
+                <a href="#/app/settings">
+                    <img src="images/settings_inActive.png" alt="" class="icon inactive">
+                    <img src="images/settings_active.png" alt="" class="icon active">
+                    <div class="name">Settings</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!--......... app contents .........-->
+    <div id="pageCont" class="notify" ui-view></div>
+
+
+    <!--........ Notification list ........-->
+    <div class="notifications">
+        <div class="searchBox marginBtmSml">
+            <input type="text" class="small" placeholder="Search">
+            <div class="searchBtn"></div>
+        </div>
+
+        <ul class="notificationList">
+            <li data-init="0">
+                <div class="symbol">
+                    <img src="images/detection1.jpg">
+                </div>
+                <div class=" notificationTxt small">
+                    <div class="name">Imposter</div>
+                    <div class="roboLight marginTopShort">
+                        <div class="timeGate">
+                            <span class="midBlock time borderRgt">12:35</span>
+                            <span class="midBlock gate">G3</span>
+                        </div>
+                    </div>
+
+                    <div class="actionBtn small">
+                        <div class="btn notify midBlock">Notify</div>
+                        <div class="btn alert midBlock">Alert</div>
+                    </div>
+                </div>
+            </li>
+            <li data-init="0">
+                <div class="symbol">
+                    <img src="images/detection2.jpg">
+                </div>
+                <div class=" notificationTxt small">
+                    <div class="name">Imposter</div>
+                    <div class="roboLight marginTopShort">
+                        <div class="timeGate">
+                            <span class="midBlock time borderRgt">12:35</span>
+                            <span class="midBlock gate">G3</span>
+                        </div>
+                    </div>
+
+                    <div class="actionBtn small">
+                        <div class="btn notify midBlock">Notify</div>
+                        <div class="btn alert midBlock">Alert</div>
+                    </div>
+                </div>
+            </li>
+            <li data-init="0">
+                <div class="symbol">
+                    <img src="images/detection3.jpg">
+                </div>
+                <div class=" notificationTxt small">
+                    <div class="name">Imposter</div>
+                    <div class="roboLight marginTopShort">
+                        <div class="timeGate">
+                            <span class="midBlock time borderRgt">12:35</span>
+                            <span class="midBlock gate">G3</span>
+                        </div>
+                    </div>
+
+                    <div class="actionBtn small">
+                        <div class="btn notify midBlock">Notify</div>
+                        <div class="btn alert midBlock">Alert</div>
+                    </div>
+                </div>
+            </li>
+            <li data-init="0">
+                <div class="symbol">
+                    <img src="images/detection1.jpg">
+                </div>
+                <div class=" notificationTxt small">
+                    <div class="name">Imposter</div>
+                    <div class="roboLight marginTopShort">
+                        <div class="timeGate">
+                            <span class="midBlock time borderRgt">12:35</span>
+                            <span class="midBlock gate">G3</span>
+                        </div>
+                    </div>
+
+                    <div class="actionBtn small">
+                        <div class="btn notify midBlock">Notify</div>
+                        <div class="btn alert midBlock">Alert</div>
+                    </div>
+                </div>
+            </li>
+            <span class="clear"></span>
+        </ul>
+    </div>
+
+</div>
+
+
+<!--...... transparent background for popups .........-->
+<div class="background"></div>
+
+

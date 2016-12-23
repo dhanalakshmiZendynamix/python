@@ -1,0 +1,73 @@
+#wrapper {
+
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+    width: 100%;
+    height: 100%;
+}
+#map1 {
+
+    float:left; /* add this */
+    border: 1px solid green;
+    width: 33%;
+}
+#map2 {
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+
+}
+#map3{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+
+.text{
+    margin-top: 150px;
+}
+.clear{
+    clear: both;
+}
+#map4{
+
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+#map5{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+#map6{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+#map7{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+
+#map8{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+#map9{
+    border: 1px solid green;
+    float: left; /* add this */
+    width: 33%;
+}
+/*
+span{
+    display: block;
+    overflow: hidden;
+}*/
+
+.customMap{
+    width: 100%;
+    height: 300px;
+}

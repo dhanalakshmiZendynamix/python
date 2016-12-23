@@ -1,0 +1,27 @@
+
+<div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="close()">&times;</button>
+        <h4 id="categoryModelHeader" class="modal-title">enter message</h4>
+    </div>
+    <div class="modal-body">
+        <div class="box-body">
+            <form>
+                message:<br>
+                <input type="text" name="message" ng-model=message>
+
+            </form>
+
+        </div>
+    </div>
+
+
+    <div class="modal-footer"  >
+        <button type="button" class="btn btn-primary" ng-click="cancel()">Close</button>
+        <button type="button" class="btn btn-info"   ng-click="save(message)" data-dismiss="modal">Add</button>
+    </div>
+</div>
+
+
+
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="angular-leaflet-map">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaflet Angular Maps</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <!--map clustering-->
+
+    <!--<link rel="stylesheet" type="text/css" href="maplibs/css/leafletv0.7.7.css" />-->
+
+    <link rel="stylesheet" type="text/css" href="../../bower_components/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="maplibs/css/MarkerCluster.Default0.4.0.css" />
+    <link rel="stylesheet" type="text/css" href="maplibs/css/MarkerClusters0.4.0.css" />
+</head>
+
+<body>
+
+<h3>Leaflet Angular Map Directive</h3>
+
+<div id="wrapper" ng-controller="mapController">
+
+    <angular-map map-id="dl" lat="32.7072078" lng="-117.1568205" zoom="18"
+                 markers="markerArray" marker-config="markerConfiguration"></angular-map>
+
+
+
+
+
+
+
+
+
+
+    <!--<div >-->
+
+        <!--<span id="map1">-->
+            <!--<div><h5> map with custom marker</h5></div>-->
+        <!--<angular-map map-id="indexmap"  latitude=51.505 longitude=-0.09 zoom=6 markers=markerArray polyline=polylineArray   marker-configuration=markerConfiguration-->
+                     <!--polyline-configuration=polylineConfiguration map-height="500" map-width="603" tile-layer="osm"></angular-map>-->
+        <!--</span>-->
+        <!--<span id="map2">-->
+        <!--<div><h5> map with polygon</h5></div>-->
+        <!--<angular-map map-id="secondmap"  latitude=12.9542944 longitude=77.4905117 zoom=12-->
+                     <!--map-height="500" map-width="603"   polygon=polygon tile-layer="osm" polygon-configuration=polygonConfiguration></angular-map>-->
+        <!--</span>-->
+        <!--<span id="map3">-->
+         <!--<div><h5> map with marker cluster</h5></div>-->
+        <!--<angular-map map-id="clustermap"  latitude=-6.081689 longitude=145.391881 zoom=4  marker-cluster=markerCluster map-height="500" map-width="603" tile-layer="osm"></angular-map>-->
+        <!--</span>-->
+        <!--<div class="clear"></div>-->
+
+    <!--</div>-->
+
+
+
+
+    <!--<div>-->
+        <!--<span id="map4">-->
+        <!--<div><h5> map with marker cluster</h5></div>-->
+
+        <!--<angular-map map-id="map4"  latitude=-6.081689 longitude=145.391881 zoom=4   map-height="480" map-width="603" tile-layer="bingAerial"></angular-map>-->
+          <!--</span>-->
+        <!--<span id="map5">-->
+        <!--<div><h5> map with marker cluster</h5></div>-->
+        <!--<angular-map map-id="map5"  latitude=-6.081689 longitude=145.391881 zoom=4  map-height="500" map-width="603" tile-layer="bingRoad" polygon=rectangle></angular-map>-->
+    <!--</span>-->
+        <!--<span id="map6">-->
+        <!--<div><h5> map with marker cluster</h5></div>-->
+        <!--<angular-map map-id="map6"  latitude=-6.081689 longitude=145.391881 zoom=4 map-height="500" map-width="603" tile-layer="bingAerialWithLabels"></angular-map>-->
+    <!--</span>-->
+        <!--<div class="clear"></div>-->
+    <!--</div>-->
+
+    <!--<div>-->
+         <!--<span id="map7">-->
+        <!--<div><h5> map with marker cluster</h5></div>-->
+        <!--<angular-map map-id="map7"  latitude=-6.081689 longitude=145.391881 zoom=4 map-height="500" map-width="603" tile-layer="googleMaps"></angular-map>-->
+    <!--</span>-->
+        <!--<span id="map8">-->
+        <!--<div><h5> map with marker cluster</h5></div>&lt;!&ndash;circle-lat-lng=circleLatLng&ndash;&gt;-->
+        <!--<angular-map map-id="map8"  latitude=-6.081689 longitude=145.391881 zoom=4 map-height="500" map-width="600" tile-layer="stamenBackWhite" ></angular-map>-->
+    <!--</span>-->
+        <!--<span id="map9">-->
+        <!--<div><h5> map with static image</h5></div>-->
+        <!--<angular-map map-id="map9"  image-tile=staticImageTitle  map-height="500" map-width="603" ></angular-map>-->
+    <!--</span>-->
+        <!--<div class="clear"></div>-->
+    <!--</div>-->
+    <!--</div>-->
+
+
+
+
+<div>
+
+</div>
+
+</div>
+
+
+<!--<script src="src/angular.js"></script>-->
+<script src="../../bower_components/angular/angular.min.js"></script>
+<script src="src/controller/mapController.js"></script>
+<script src="src/directive/map.js"></script>
+<script src="src/service/markerSettingsService.js"></script>
+<script src="src/service/helperService.js"></script>
+<!--<script src="src/service/mapSettingsService.js"></script>-->
+<script src="src/service/polylineSettingService.js"></script>
+<script src="src/service/polygonSettingService.js"></script>
+
+<script type='text/javascript' src='maplibs/jquerymin.js'></script>
+<!--<script type='text/javascript' src='maplibs/leaflet.js'></script>-->
+<script type='text/javascript' src='../../bower_components/leaflet/dist/leaflet.js'></script>
+<script type='text/javascript' src='maplibs/leaflet.markercluster.js'></script>
+<script src="maplibs/bingLayer.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbUGvpUJn8JdZFlrXn2krev5dWYhRSZV8"></script>
+<script src="http://matchingnotes.com/javascripts/leaflet-google.js"></script>
+
+</body>
+</html>

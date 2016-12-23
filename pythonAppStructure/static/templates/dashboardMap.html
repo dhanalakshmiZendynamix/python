@@ -1,0 +1,46 @@
+<!--<button type="button" class="btn btn-default" ng-click="addMarker()">Add Marker</button>-->
+
+<!--........ map .........-->
+<div class="mapContainer dl">
+   <!-- <div class="map" id="dashboardMap"></div>-->
+    <angular-map map-id="dl" lat="32.7072078" lng="-117.1568205" zoom="18"
+                 markers="markerArray" marker-config="markerConfiguration"></angular-map>
+</div>
+
+<div class="mapContainer dl">
+   <!-- <div class="map" id="dashboardMap"></div>-->
+    <angular-map map-id="dl" lat="32.7072078" lng="-117.1568205" zoom="18"
+                 markers="markerArray" marker-config="markerConfiguration"></angular-map>
+</div>
+
+
+<!--......... message popup ........-->
+<div class="popup   startInstance">
+    <div class="x close">X</div>
+    <div class="popupContent">
+        <div class="msg smallTitle roboLight marginBtmSec">
+            <form>
+                {{main.markerLatLng}}
+                message
+
+                <ul class="form">
+                    <li>
+                        <input type="text" name="message" ng-model=message.gate placeholder="Gate">
+                    </li>
+                    <li>
+                        <input type="text" name="message" ng-model=message.checkpoint placeholder="Checkpoint">
+                    </li>
+                    <li>
+                        <input type="text" name="message" ng-model=message.status placeholder="Status">
+                    </li>
+                </ul>
+            </form>
+        </div>
+        <div class="btnMain subNormal">
+            <div class="btn marginRgt" ng-click="save(message,main.markerLatLng)" data-dismiss="modal">Add</div>
+            <div class="btn close cancel" ng-click="cancel()">Close</div>
+        </div>
+    </div>
+
+</div>
+

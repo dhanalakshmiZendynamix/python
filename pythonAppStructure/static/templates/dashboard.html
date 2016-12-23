@@ -1,0 +1,326 @@
+<div class="subHeader small roboLight">
+    <div class="floatLeft">
+
+        <div class="dropDown highlight midBlock thin subNormal">
+            <div class="head" data-init="0">
+                <div class="headTitle">Map</div>
+            </div>
+            <ul class="list">
+                <li>Map</li>
+            </ul>
+        </div>
+
+        <div class="dropDown midBlock thin marginLeftSml">
+            <div class="head" data-init="0">
+                <div class="headTitle">Authentication</div>
+            </div>
+            <ul class="list">
+                <li>Authentication</li>
+            </ul>
+        </div>
+
+        <div class="dropDown midBlock thin marginLeftSml">
+            <div class="head" data-init="0">
+                <div class="headTitle">Gate</div>
+            </div>
+            <ul class="list">
+                <li>Map</li>
+            </ul>
+        </div>
+        <div class="dropDown midBlock thin marginLeftSml">
+            <div class="head" data-init="0">
+                <div class="headTitle">Checkpoint</div>
+            </div>
+            <ul class="list">
+                <li>Map</li>
+            </ul>
+        </div>
+
+        <div class="dateBox thin midBlock marginLeftSml">
+            <div class="tag">From</div>
+            <input type="text" class="small" date-picker>
+        </div>
+
+        <div class="dateBox thin midBlock marginLeftSml">
+            <div class="tag">To</div>
+            <input type="text" class="small" date-picker>
+        </div>
+    </div>
+    <div class="floatRight">
+        <div class="tabsLink">
+            <a href="#/app/dashboard/dashboardMap" ng-class="{active: currentRout('app/dashboard/dashboardMap')}">Maps</a>
+            <a href="#/app/dashboard/dashboardGraph" ng-class="{active: currentRout('app/dashboard/dashboardGraph')}">Graph</a>
+        </div>
+    </div>
+    <span class="clear"></span>
+</div>
+
+
+
+<!--........ summary table .........-->
+<div class="dataTable summaryTable whiteBack marginLR roboLight centerTxt subNormal">
+    <div class="dataRow">
+        <ul class="rowCont">
+            <li class="active">
+                <div class="num mainTitle">235</div>
+                <div class="name">All</div>
+            </li>
+            <li>
+                <div class="num mainTitle">235</div>
+                <div class="name">Pass</div>
+            </li>
+            <li>
+                <div class="num mainTitle off">12</div>
+                <div class="name">Fail</div>
+            </li>
+            <li>
+                <div class="num mainTitle">07</div>
+                <div class="name">Gates</div>
+            </li>
+            <li>
+                <div class="num mainTitle">16</div>
+                <div class="name">Checkpoints</div>
+            </li>
+            <li>
+                <div class="num mainTitle">16</div>
+                <div class="name">Cameras</div>
+            </li>
+            <li>
+                <div class="num mainTitle">12</div>
+                <div class="name">Scanner</div>
+            </li>
+            <li>
+                <div class="num mainTitle">04</div>
+                <div class="name">Single Factor</div>
+            </li>
+            <li>
+                <div class="num mainTitle">03</div>
+                <div class="name">Two Factor</div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--........ detection slider .......-->
+<div class="paddingFull">
+    <div class="detectionSlider">
+        <div class="leftArrow arrow arrow2"></div>
+        <div class="rightArrow arrow arrow1"></div>
+
+        <ul class="detectionList">
+            <slick settings="slickConfig" dots="true" slides-to-show=3 slides-to-scroll=3 prev-arrow=".arrow1" next-arrow=".arrow2">
+                <li class="low">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection1.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Jason Mathew</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">35%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection2.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Steven Smith</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/personIcon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection3.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Andrew Hunt</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/thumb.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="low">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection1.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Jason Mathew</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">35%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection2.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Steven Smith</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/personIcon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection3.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Andrew Hunt</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/thumb.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="low">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection1.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Jason Mathew</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">35%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection2.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Steven Smith</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/personIcon.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mid">
+                    <div class="detailsMain">
+                        <div class="detailsBox">
+                            <div class="personIcon midBlock">
+                                <img src="images/detection3.jpg" alt="">
+                            </div>
+                            <div class="details midBlock">
+                                <div class="name">Andrew Hunt</div>
+                                <div class="email">jason@gmail.com</div>
+                                <ul class="subDetails">
+                                    <li>X67SJ4</li>
+                                    <li>12:28</li>
+                                    <li>G3</li>
+                                </ul>
+                            </div>
+                            <div class="icon">
+                                <img src="images/thumb.png" alt="">
+                            </div>
+                        </div>
+                        <div class="numberMain">
+                            <div class="number">28%</div>
+                        </div>
+                    </div>
+                </li>
+            </slick>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="" ui-view></div>

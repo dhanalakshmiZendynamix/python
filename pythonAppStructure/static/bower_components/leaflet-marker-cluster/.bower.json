@@ -1,0 +1,10 @@
+{
+  "name": "leaflet-marker-cluster",
+  "_cacheHeaders": {
+    "Content-Type": "text/html"
+  },
+  "main": "index",
+  "_source": "https://unpkg.com/leaflet.markercluster@1.0.0/dist/",
+  "_target": "*",
+  "_originalSource": "https://unpkg.com/leaflet.markercluster@1.0.0/dist/"
+}
